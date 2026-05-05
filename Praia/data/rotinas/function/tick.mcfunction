@@ -15,6 +15,6 @@ execute if predicate rotinas:dia_chovendo if score PDayTime diaNormal matches 1 
 execute as @a at @s if entity @e[type=spider,name="Dona Aranha",distance=..2] unless score @s encontro_dona_aranha matches 1 run function rotinas:diversos/dona_aranha
 
 # Relogio:
-execute as @a if predicate rotinas:relogio unless score @s relogio matches 1 run function rotinas:diversos/relogio
-execute as @a unless predicate rotinas:relogio if score @s relogio matches 1.. run function rotinas:diversos/relogio_reset
+function rotinas:diversos/relogio/relogio_tick
+
 

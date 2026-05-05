@@ -1,17 +1,17 @@
 # Ivanir jantando
-tp @e[type=minecraft:villager,limit=1,name="Seu Ivanir"] 59692 70.5 7893
+function rotinas:rotinas/tp_npc {nome:"Seu Ivanir", coord:"59692 70.5 7893"}
 
 # ronaldo do caldo cantando fly me to the moon
-tp @e[type=minecraft:villager,limit=1,name="Ronaldo do Caldo"] 59768.51 63.00 7912.47
+function rotinas:rotinas/tp_npc {nome:"Ronaldo do Caldo", coord:"59768.51 63.00 7912.47"}
 setblock 59765 47 7878 minecraft:redstone_block
 
 # fecha porta da igreja
 setblock 59518 80 7925 redstone_torch
 
 # gerusa escreve diario
-tp @e[type=minecraft:villager,name=Gerusa] 59660.49 80.56 7910.41
+function rotinas:rotinas/tp_npc {nome:"Gerusa", coord:"59660.49 80.56 7910.41"}
 
 # Tarcila sacada fumando
-tp @e[type=villager,name="Tarcila",limit=1] 59669.42 76.00 7892.61
+function rotinas:rotinas/tp_npc {nome:"Tarcila", coord:"59669.42 76.00 7892.61"}
 summon area_effect_cloud 59669 77.4 7892 {Particle:{type:"campfire_cosy_smoke"},ReapplicationDelay:60,Radius:3f,Duration:40,potion_contents:{custom_color:12694983,custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:400,show_particles:0b,show_icon:0b}]}}
 playsound minecraft:block.campfire.crackle ambient @a 59669 77.4 7892 1 1.7
