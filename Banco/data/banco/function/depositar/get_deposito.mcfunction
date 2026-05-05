@@ -1,0 +1,1 @@
+tellraw @s [{"color":"#3cea11","text":"💰 Valor atual do depósito: "},{"color":"aqua","score":{"name":"@s","objective":"deposito"}},{"color":"gold","text":" mango(s).\n"},{"bold":true,"click_event":{"action":"run_command","command":"function banco:depositar/set_deposito"},"color":"#21FFE1","text":"[ Alterar Depósito ]"}]

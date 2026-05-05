@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": "minecraft:bush",
+        "count": 3,
+        "components": {
+          "minecraft:custom_name": {
+            "text": "Erva-mate",
+            "type": "text",
+            "color": "#436D41",
+            "bold": true,
+            "italic": false
+          }
+        }
+      }
+    }
+  }
+}

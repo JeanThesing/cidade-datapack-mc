@@ -1,0 +1,6 @@
+attribute @s minecraft:jump_strength base set 0.2
+attribute @s minecraft:movement_speed base set 0.03
+attribute @s minecraft:scale base set 0.001
+item replace entity @s armor.head with player_head[profile={"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1ODI0ZGJmNmE5OWE5MzM1ZjUxNzBiYmRmYzJmZGM3MWYyNTA0ZWE0NWYwM2E3NTdjMWY4NDYxZDA4MGQ3YyJ9fX0="}]},enchantments={"binding_curse":1},enchantment_glint_override=false,custom_name={"bold":true,"color":"#6B6A85","italic":false,"text":"Cabeça de Formiga"}] 1
+give @s brown_mushroom[custom_name={"bold":true,"color":"#F5FFE3","italic":false,"text":"Leucoagaricus gongylophorus"},consumable={consume_seconds:1.3,animation:"eat"},food={nutrition:6,saturation:5}] 64
+give @s sugar[consumable={consume_seconds:0.8,animation:"eat",on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:jump_boost",amplifier:1,duration:100,show_particles:0b},{id:"minecraft:speed",amplifier:1,duration:100,show_particles:0b}]}]},food={nutrition:1,saturation:1,can_always_eat:true}] 64

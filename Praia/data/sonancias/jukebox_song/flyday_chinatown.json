@@ -1,0 +1,9 @@
+{
+  "description": "Yasuha - Fly-day Chinatown",
+  "comparator_output": 1,
+  "length_in_seconds": 209,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.flyday_chinatown",
+    "range": 4
+  }
+}

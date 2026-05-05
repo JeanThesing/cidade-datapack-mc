@@ -1,0 +1,1 @@
+give @s music_disc_creator[jukebox_playable="sonancias:flyday_chinatown"] 1

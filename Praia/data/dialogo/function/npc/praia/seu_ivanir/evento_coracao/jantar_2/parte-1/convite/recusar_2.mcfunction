@@ -1,0 +1,1 @@
+execute at @e[type=villager,name="Seu Ivanir", tag=morador] run say das

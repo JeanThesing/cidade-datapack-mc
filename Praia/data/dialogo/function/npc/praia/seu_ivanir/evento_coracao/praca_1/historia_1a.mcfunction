@@ -1,0 +1,4 @@
+tellraw @a[distance=..8] [  {"color":"gold","text":"<Seu Ivanir>"},  {"color":"white","text":" Bom, a história é longa, meu jovem... se estiver disposto a ouvir... Vim para cá com minha esposa há alguns anos. Ela amava o mar."},  {"color":"white","text":" Carmen era o nome dela... Ah, Carmen! Que mulher apaixonante..."},  {"color":"white","text":" Nos conhecemos em Ângulo, quando ainda moços e cheios de sonhos."},  {"bold":true,"click_event":{"action":"run_command","command":"function dialogo:npc/praia/seu_ivanir/evento_coracao/praca_1/historia_1b"},"color":"dark_green","text":"\n Continue, senhor"},  {"bold":true,"click_event":{"action":"run_command","command":"/tellraw @a[distance=..10] {\"text\":\"(Seu Ivanir sorri e olha para o mar, imerso em lembranças antigas)\",\"color\":\"white\",\"bold\":true}"},"color":"dark_green","text":"\n Depois volto a escutar sua história"}]
+
+playsound minecraft:block.note_block.bass voice @a[distance=..10] ~ ~ ~ 1 1.2
+

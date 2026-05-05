@@ -1,0 +1,1 @@
+give @s music_disc_wait[jukebox_playable="sonancias:boate_azul"] 1

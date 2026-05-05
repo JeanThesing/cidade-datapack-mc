@@ -1,0 +1,1 @@
+give @p player_head[profile={"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMwMmMyNzRlZjNjYmM2ZGI5NWY4NjA0MmM0MTUyN2NkN2Q2ZDdlM2ZmZDBlYWY3NmViZTlkMTA0YjllNThlNiJ9fX0="}]}] 1

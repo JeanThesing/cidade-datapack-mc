@@ -1,0 +1,9 @@
+{
+  "description": "Renato Quem Fala 1",
+  "comparator_output": 1,
+  "length_in_seconds": 12,
+  "sound_event": {
+    "sound_id": "audios:music_disc.renato_quem_fala",
+    "range": 2
+  }
+}

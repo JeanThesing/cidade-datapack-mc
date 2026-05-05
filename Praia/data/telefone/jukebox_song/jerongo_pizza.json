@@ -1,0 +1,9 @@
+{
+  "description": "Jerongo Pizza",
+  "comparator_output": 1,
+  "length_in_seconds": 23,
+  "sound_event": {
+    "sound_id": "audios:music_disc.jerongo_pizza",
+    "range": 2
+  }
+}

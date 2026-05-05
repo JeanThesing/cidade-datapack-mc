@@ -1,0 +1,1 @@
+tellraw @s [{"color":"gold","text":"💰 Valor atual do saque: "},{"color":"aqua","score":{"name":"@s","objective":"saque"}},{"color":"gold","text":" mango(s).\n"},{"bold":true,"click_event":{"action":"run_command","command":"function banco:sacar/set_saque"},"color":"#21FFE1","text":"[ Alterar Saque ]"}]

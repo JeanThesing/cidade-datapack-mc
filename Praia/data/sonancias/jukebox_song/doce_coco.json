@@ -1,0 +1,9 @@
+{
+  "description": "Jacob do Bandolim - Doce de Coco",
+  "comparator_output": 1,
+  "length_in_seconds": 175,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.doce_coco",
+    "range": 4
+  }
+}

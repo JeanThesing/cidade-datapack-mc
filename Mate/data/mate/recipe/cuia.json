@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "BA "
+  ],
+  "key": {
+    "A": "minecraft:flower_pot",
+    "B": "minecraft:leather",
+    "C": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:profile": {
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA1NmJiYTYzNjI2ZTk5ZjA5YWQxNTRhYjkxZmZhYzQwODBhMzA5MDViOGFkMWFiYTIwZmE0NDYxMWVlNjMzNSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Cuia e Bomba",
+        "type": "text",
+        "italic": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "id": "minecraft:",
+          "amount": -100,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:attribute_modifiers"
+        ]
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

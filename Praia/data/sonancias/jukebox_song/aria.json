@@ -1,0 +1,9 @@
+{
+  "description": "Villa-Lobos: Bachianas brasileiras No. 5 - Aria",
+  "comparator_output": 1,
+  "length_in_seconds": 357,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.aria",
+    "range": 4
+  }
+}

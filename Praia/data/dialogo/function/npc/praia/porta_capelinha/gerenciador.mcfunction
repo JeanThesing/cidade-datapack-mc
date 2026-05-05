@@ -1,0 +1,1 @@
+execute as @e[type=villager,tag=talk,name="porta_capela",scores={talk=1}] run function dialogo:npc/praia/porta_capelinha/porta

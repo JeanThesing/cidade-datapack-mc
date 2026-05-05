@@ -1,0 +1,1 @@
+tellraw @s [{"color":"#37e41c","text":"💰 Valor atual do depósito de quitação: "},{"color":"aqua","score":{"name":"@s","objective":"deposito"}},{"color":"gold","text":" mango(s).\n"},{"bold":true,"click_event":{"action":"run_command","command":"function banco:divida/quitar/depositar/set_deposito"},"color":"#21FFE1","text":"[ Alterar Depósito ]"}]

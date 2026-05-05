@@ -1,0 +1,9 @@
+{
+  "description": "2345meia78",
+  "comparator_output": 1,
+  "length_in_seconds": 25,
+  "sound_event": {
+    "sound_id": "audios:music_disc.2345meia78",
+    "range": 2
+  }
+}

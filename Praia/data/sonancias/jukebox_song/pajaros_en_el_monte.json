@@ -1,0 +1,9 @@
+{
+  "description": "Abel Fleury - Pajaros en el Monte",
+  "comparator_output": 1,
+  "length_in_seconds": 169,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.pajaros_en_el_monte",
+    "range": 4
+  }
+}

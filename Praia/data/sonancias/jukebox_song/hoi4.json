@@ -1,0 +1,9 @@
+{
+  "description": "Hears of Iron IV - Main Theme",
+  "comparator_output": 1,
+  "length_in_seconds": 211,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.hoi4",
+    "range": 4
+  }
+}

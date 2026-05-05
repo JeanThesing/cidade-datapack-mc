@@ -1,0 +1,1 @@
+give @s music_disc_relic[jukebox_playable="sonancias:blue_oyster"] 1

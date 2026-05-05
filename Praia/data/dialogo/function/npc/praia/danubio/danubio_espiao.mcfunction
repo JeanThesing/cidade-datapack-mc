@@ -1,0 +1,3 @@
+execute at @e[type=villager,tag=talk,name="Agente Danúbio",scores={talk=1}] run tellraw @a[distance=..8] [{"bold":true,"click_event":{"action":"run_command","command":"/setblock 59685 69 7943 minecraft:redstone_block"},"color":"#6378FF","italic":false,"text":"Você por acaso está espiando o Sr. Ronaldo trocar de roupa?\n\n"},{"bold":true,"click_event":{"action":"run_command","command":"/setblock 59683 69 7943 minecraft:redstone_block"},"color":"#E7FF4D","italic":false,"text":"Não tudo bem, eu entendo... Nada contra.\n\n"},{"bold":true,"click_event":{"action":"run_command","command":"/setblock 59681 69 7943 minecraft:redstone_block"},"color":"#DE0000","italic":false,"text":"DEIXE O RONALDO EM PAZ!\n"}]
+
+tag @e[type=villager,tag=talk,name="Agente Danúbio"] remove talk

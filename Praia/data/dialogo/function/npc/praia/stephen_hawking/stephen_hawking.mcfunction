@@ -1,0 +1,3 @@
+execute at @s run tellraw @a[distance=..8] [{"bold":true,"click_event":{"action":"run_command","command":"/setblock 59738 64 7852 redstone_block"},"color":"#2BFF4F","italic":false,"text":"[Falar com Stephen Halking]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/setblock 59738 64 7849 minecraft:redstone_block"},"color":"#FF0D0D","italic":false,"text":"[Ejetar Stephen Halking]"}]
+
+tag @e[type=villager,tag=talk,name="Stephen Hawking"] remove talk

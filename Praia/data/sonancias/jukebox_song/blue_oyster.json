@@ -1,0 +1,9 @@
+{
+  "description": "Blue Oyster",
+  "comparator_output": 1,
+  "length_in_seconds": 217,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.blue_oyster",
+    "range": 6
+  }
+}

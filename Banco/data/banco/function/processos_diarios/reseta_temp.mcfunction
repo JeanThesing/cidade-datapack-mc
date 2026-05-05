@@ -1,0 +1,11 @@
+scoreboard players set @s deposito_possivel 0
+scoreboard players set @s deposito_possivel_atual 0
+scoreboard players set @s deposito 0
+scoreboard players set @s deposito_temp 0
+scoreboard players set @s saque 0
+scoreboard players set @s moeda_temp 0
+scoreboard players set @s moeda_temp_deposito 0
+scoreboard players set @s saque_temp 0
+scoreboard players set @s temp_success 0
+scoreboard players set @s divida_temp 0
+scoreboard players set @s item_temp 0

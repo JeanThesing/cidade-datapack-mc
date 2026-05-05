@@ -1,0 +1,248 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:blaze_rod",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:acacia_button",
+                "minecraft:consumable": {
+                  "consume_seconds": 1.4,
+                  "animation": "eat",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:hunger",
+                          "amplifier": 2,
+                          "duration": 160,
+                          "show_particles": false
+                        },
+                        {
+                          "id": "minecraft:nausea",
+                          "amplifier": 0,
+                          "duration": 120,
+                          "show_particles": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "block.fire.extinguish"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#FFF1E0",
+                  "italic": false,
+                  "text": "Bituca de Cigarro"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "bold": true,
+                  "color": "#FF9C19",
+                  "italic": false,
+                  "text": "Lixo"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "weight": 21
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "weight": 17,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#FFF3CC",
+                  "italic": false,
+                  "text": "Pena de Pombo"
+                }
+              ],
+              "target": "item_name"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:firework_rocket",
+                "minecraft:consumable": {
+                  "consume_seconds": 10,
+                  "animation": "brush",
+                  "sound": "entity.cod.flop",
+                  "has_consume_particles": false,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:slowness",
+                          "amplifier": 0,
+                          "duration": 1200,
+                          "show_particles": false
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:play_sound",
+                      "sound": "entity.cat.beg_for_food"
+                    }
+                  ]
+                },
+                "minecraft:use_remainder": {
+                  "id": "minecraft:blaze_rod",
+                  "count": 1,
+                  "components": {
+                    "minecraft:item_model": "minecraft:firework_rocket",
+                    "minecraft:consumable": {
+                      "consume_seconds": 10,
+                      "animation": "brush",
+                      "sound": "entity.cod.flop",
+                      "has_consume_particles": false,
+                      "on_consume_effects": [
+                        {
+                          "type": "minecraft:apply_effects",
+                          "effects": [
+                            {
+                              "id": "minecraft:slowness",
+                              "amplifier": 0,
+                              "duration": 1200,
+                              "show_particles": false
+                            }
+                          ]
+                        },
+                        {
+                          "type": "minecraft:play_sound",
+                          "sound": "entity.cat.beg_for_food"
+                        }
+                      ]
+                    },
+                    "minecraft:custom_name": {
+                      "bold": true,
+                      "color": "#EF0DFF",
+                      "italic": false,
+                      "shadow_color": -8912896,
+                      "text": "Dildo"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "function": "set_name",
+              "name": [
+                {
+                  "bold": true,
+                  "color": "#EF0DFF",
+                  "italic": false,
+                  "shadow_color": -8912896,
+                  "text": "Dildo"
+                }
+              ]
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "bold": true,
+                  "color": "#57270C",
+                  "italic": false,
+                  "shadow_color": 7039851,
+                  "text": "Tá sujo"
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 22
+        }
+      ]
+    }
+  ]
+}

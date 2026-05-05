@@ -1,0 +1,9 @@
+{
+  "description": "To Thee we sing",
+  "comparator_output": 1,
+  "length_in_seconds": 218,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.to_thee_we_sing",
+    "range": 4
+  }
+}

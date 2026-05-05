@@ -1,0 +1,1 @@
+give @s music_disc_creator[jukebox_playable="sonancias:to_thee_we_sing"] 1

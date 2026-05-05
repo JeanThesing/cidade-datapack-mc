@@ -1,0 +1,9 @@
+{
+  "description": "Blade Runner - Love Theme",
+  "comparator_output": 1,
+  "length_in_seconds": 296,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.blade_runner",
+    "range": 4
+  }
+}

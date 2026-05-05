@@ -1,0 +1,9 @@
+{
+  "description": "Bebê a Bordo",
+  "comparator_output": 1,
+  "length_in_seconds": 64,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.bebe_a_bordo",
+    "range": 4
+  }
+}

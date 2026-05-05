@@ -1,0 +1,1 @@
+give @s music_disc_creator[jukebox_playable="sonancias:pajaros_en_el_monte"] 1

@@ -1,0 +1,9 @@
+{
+  "description": "Adoniran Barbosa - Prova de Carinho",
+  "comparator_output": 1,
+  "length_in_seconds": 123,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.prova_carinho",
+    "range": 4
+  }
+}

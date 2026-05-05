@@ -1,0 +1,1 @@
+give @s bush[custom_name={"bold":true,"color":"#436D41","italic":false,"text":"Erva-mate"}] 3

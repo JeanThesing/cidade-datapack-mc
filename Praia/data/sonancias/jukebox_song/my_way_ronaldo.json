@@ -1,0 +1,9 @@
+{
+  "description": "Ronaldo - My Way",
+  "comparator_output": 1,
+  "length_in_seconds": 277,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.my_way_ronaldo",
+    "range": 4
+  }
+}

@@ -1,0 +1,13 @@
+execute if predicate rotinas:time/03h00 run function rotinas:rotinas/comum/03h00
+execute if predicate rotinas:time/05h30 run function rotinas:rotinas/comum/05h30
+execute if predicate rotinas:time/06h10 run function rotinas:rotinas/comum/06h10
+execute if predicate rotinas:time/07h00 run function rotinas:rotinas/comum/07h00
+execute if predicate rotinas:time/08h00 run function rotinas:rotinas/comum/08h00
+execute if predicate rotinas:time/12h00 run function rotinas:rotinas/comum/12h00
+execute if predicate rotinas:time/16h20 run function rotinas:rotinas/comum/16h20
+execute if predicate rotinas:time/16h30 run function rotinas:rotinas/comum/16h30
+execute if predicate rotinas:time/17h30 run function rotinas:rotinas/comum/17h30
+execute if predicate rotinas:time/18h30 run function rotinas:rotinas/comum/18h30
+execute if predicate rotinas:time/20h30 run function rotinas:rotinas/comum/20h30
+execute if predicate rotinas:time/21h30 run function rotinas:rotinas/comum/21h30
+execute if predicate rotinas:time/23h30 run function rotinas:rotinas/comum/23h30

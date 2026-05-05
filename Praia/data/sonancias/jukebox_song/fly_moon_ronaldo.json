@@ -1,0 +1,9 @@
+{
+  "description": "Ronaldo - Fly me to the Moon",
+  "comparator_output": 1,
+  "length_in_seconds": 149,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.fly_moon_ronaldo",
+    "range": 4
+  }
+}

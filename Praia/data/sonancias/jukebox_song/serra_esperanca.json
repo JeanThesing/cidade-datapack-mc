@@ -1,0 +1,9 @@
+{
+  "description": "Francisco Alves - Serra da Boa Esperança",
+  "comparator_output": 1,
+  "length_in_seconds": 164,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.serra_esperanca",
+    "range": 4
+  }
+}

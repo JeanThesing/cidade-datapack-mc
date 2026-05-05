@@ -1,0 +1,10 @@
+{
+    "values": [
+        "dialogo:tick",
+        "rotinas:tick",
+        "dialogo:cafeteria/tick_cafeteria",
+        "dialogo:cafeteria/checa_saida_antecipada",
+        "night_club:tick_night_club",
+        "dialogo:cafeteria/checa_saida_no_horario"
+    ]
+}

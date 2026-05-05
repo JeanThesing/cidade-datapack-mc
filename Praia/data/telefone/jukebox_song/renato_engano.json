@@ -1,0 +1,9 @@
+{
+  "description": "Renato Engano",
+  "comparator_output": 1,
+  "length_in_seconds": 30,
+  "sound_event": {
+    "sound_id": "audios:music_disc.renato_engano",
+    "range": 2
+  }
+}

@@ -1,0 +1,1 @@
+execute store result score encontroRandom randomico run random roll 1..9

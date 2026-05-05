@@ -1,0 +1,5 @@
+tellraw @s [{"bold":true,"color":"white","text":"(Você dirigiu-se à casa de Seu Ivanir e tomou um café com ele. Durante esse tempo, vocês conversaram bastante; Seu Ivanir compartilhou diversas anedotas e contos de sua vida. No final da noite, você e o simpático senhor pegaram um violão e cantaram diversas sonâncias da velha guarda brasileira. Após isso, vocês se despediram, e você deixou a humilde residência de Seu Ivanir.) "}]
+
+tellraw @s [  "",  {"text":"✨ Você sente seu vínculo com ","color":"yellow"},  {"text":"Seu Ivanir","color":"gold","bold":true},  {"text":" fortalecer... \n","color":"yellow"},   {"text":"❤ +1 Coração ","color":"red"},  {"text":"(Progresso: ","color":"gray"},  {"score":{"name":"@s","objective":"afeto_seu_ivanir"},"color":"green"},  {"text":"/10)","color":"gray"}]
+
+playsound minecraft:block.note_block.bass voice @a[distance=..10] ~ ~ ~ 1 1.1

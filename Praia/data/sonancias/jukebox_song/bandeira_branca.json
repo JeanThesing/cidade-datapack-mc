@@ -1,0 +1,9 @@
+{
+  "description": "Bandeira Branca",
+  "comparator_output": 1,
+  "length_in_seconds": 172,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.bandeira_branca",
+    "range": 4
+  }
+}

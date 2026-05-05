@@ -1,0 +1,1 @@
+summon villager ~ ~ ~ {Silent:1b,NoAI:1b,Tags:["telefone"],CustomName:{"bold":true,"color":"#3D8BFF","italic":false,"text":"Telefone"},active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],VillagerData:{profession:"minecraft:nitwit"},Offers:{}}

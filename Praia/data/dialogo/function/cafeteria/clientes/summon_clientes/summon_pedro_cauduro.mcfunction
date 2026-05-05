@@ -1,0 +1,3 @@
+# Pedro Cauduro
+# dia 2
+summon villager 59700.49 77.00 7907.49 {PersistenceRequired:1b,Tags:["cliente"],CustomName:{"bold":true,"color":"#A250AB","text":"Pedro Cauduro"},equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwNDNlZGJlZmE1MDFjMTVhYzZjNzdiMTUwZWNjYjdiMmNiMmJlNGU1MTAyNmEwMzdiY2RiZmYzYzI0MWIwMSJ9fX0="}]}}}},attributes:[{id:"minecraft:jump_strength",base:-100},{id:"minecraft:scale",base:0.9}],VillagerData:{type:"minecraft:desert"},Offers:{}}

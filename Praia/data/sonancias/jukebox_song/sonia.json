@@ -1,0 +1,9 @@
+{
+  "description": "Sônia - Léo Jaime",
+  "comparator_output": 1,
+  "length_in_seconds": 274,
+  "sound_event": {
+    "sound_id": "minecraft:music_disc.sonia",
+    "range": 4
+  }
+}
