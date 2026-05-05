@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:magma_cream",
+        "components": {
+          "minecraft:custom_name": {
+            "text": "Cigarro",
+            "extra": [
+              {
+                "text": " Ouro",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              }
+            ],
+            "color": "#FFFCF0",
+            "bold": true,
+            "italic": false
+          }
+        }
+      }
+    }
+  }
+}

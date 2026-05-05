@@ -4,8 +4,7 @@
   "ingredients": [
     "minecraft:paper",
     [
-      "minecraft:large_fern",
-      "minecraft:fern"
+      "minecraft:large_fern"
     ]
   ],
   "result": {
