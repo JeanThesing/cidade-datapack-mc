@@ -15,7 +15,7 @@ function rotinas:rotinas/tp_npc {nome:"Gerusa", coord:"59668.45 80.00 7903.53"}
 
 # tarcila bong
 function rotinas:rotinas/tp_npc {nome:"Tarcila", coord:"59672.55 74.00 7902.31"}
-summon area_effect_cloud 59670 75.4 7902 {Particle:{type:"campfire_cosy_smoke"},ReapplicationDelay:60,Radius:3f,Duration:40,potion_contents:{custom_color:12694983,custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:400,show_particles:0b,show_icon:0b}]}}
+summon area_effect_cloud 59670 75.4 7902 {custom_particle:{type:"campfire_cosy_smoke"},ReapplicationDelay:60,Radius:3f,Duration:40,potion_contents:{custom_color:12694983,custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:400,show_particles:0b,show_icon:0b}]}}
 playsound minecraft:block.campfire.crackle ambient @a 59670 75.4 7902 1 1.7
 
 # Eunice mesa da cozinha
