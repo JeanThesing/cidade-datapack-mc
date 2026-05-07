@@ -12,8 +12,10 @@ function dialogo:npc/praia/ronaldo/gerenciador
 function dialogo:npc/praia/danubio/gerenciador
 # Domingos
 function dialogo:npc/praia/domingos/gerenciador
-# Telefone
-function dialogo:npc/praia/telefone/gerenciador
 # Porta da Capela
 function dialogo:npc/praia/porta_capelinha/gerenciador
+
+# Chama Telefone do namespace Telefone
+# Telefone
+function telefone:sistema/gerenciador
 

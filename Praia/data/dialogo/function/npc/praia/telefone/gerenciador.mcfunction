@@ -1,1 +1,0 @@
-execute as @e[type=villager,tag=talk,name="Telefone",scores={talk=1}] run function dialogo:npc/praia/telefone/telefone

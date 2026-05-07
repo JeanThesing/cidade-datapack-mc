@@ -1,2 +1,2 @@
-execute as @a at @a[x=59580.53,y=75.90,z=8069.50,distance=..5] run tellraw @s [{"color":"dark_gray","text":"------------------------\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function telefone:telefone/renato/quem_fala_2"},"color":"#FFFF42","text":"[ Você já viu o fantasma que foge de gay? ]\n\n"},{"click_event":{"action":"run_command","command":"/function telefone:telefone/desligar"},"color":"dark_red","text":"[ Desligar ]\n"},{"color":"dark_gray","text":"------------------------"}]
-
+# Pergunta se o Renato já viu o fantasma que foge de gay
+function telefone:sistema/interface/resposta_unica {answer:"Você já viu o fantasma que foge de gay?", function:"/function telefone:telefone/renato/quem_fala_2"}

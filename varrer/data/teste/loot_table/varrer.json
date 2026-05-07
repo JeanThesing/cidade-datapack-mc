@@ -140,7 +140,7 @@
                 "minecraft:item_model": "minecraft:firework_rocket",
                 "minecraft:consumable": {
                   "consume_seconds": 10,
-                  "animation": "brush",
+                  "animation": "drink",
                   "sound": "entity.cod.flop",
                   "has_consume_particles": false,
                   "on_consume_effects": [
@@ -168,7 +168,7 @@
                     "minecraft:item_model": "minecraft:firework_rocket",
                     "minecraft:consumable": {
                       "consume_seconds": 10,
-                      "animation": "brush",
+                      "animation": "drink",
                       "sound": "entity.cod.flop",
                       "has_consume_particles": false,
                       "on_consume_effects": [
