@@ -21,7 +21,10 @@ tellraw @a[distance=..3] [{"color":"dark_gray","text":"------------------------\
 
     # 2345meia78
     function telefone:sistema/interface/contato {function:"/function telefone:telefone/2345meia78/2345meia78", color:"#6ad6c7", name:"+55 2345678"}
-    
+
+    # Disca-Roleta
+    function telefone:sistema/interface/contato {function:"/function telefone:telefone/roulette/roulette", color:"#2f36b7", name:"Disca-Roleta"}
+
 # parte debaixo
 tellraw @a[distance=..3] [{"text":"\n"},{"color":"dark_gray","text":"------------------------"}]
 
