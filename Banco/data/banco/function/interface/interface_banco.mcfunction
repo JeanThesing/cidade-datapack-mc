@@ -1,5 +1,7 @@
-tellraw @s [{"bold":true,"color":"#D61515","italic":false,"text":"         Banco Bancão\n\n"},{"color":"#D6312B","text":"— Selecione uma opção:\n\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:get_saldo"},"color":"gold","text":"[ Ver Saldo ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:depositar/set_deposito"},"color":"#15D61C","text":"[ Depositar ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:interface/saque"},"color":"#249BD6","text":"[ Sacar ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:interface/get_divida"},"color":"#D60909","text":"[ Ver Dívida ]"}]
+tellraw @s {"color":"dark_red","text":"—————————————————"}
+
+tellraw @s [{"bold":true,"color":"#D61515","italic":false,"text":"       Banco Bancão\n\n"},{"color":"#D6312B","text":"— Selecione uma opção:\n\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:get_saldo"},"color":"gold","text":"[ Ver Saldo ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:depositar/set_deposito"},"color":"#15D61C","text":"[ Depositar ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:interface/saque"},"color":"#249BD6","text":"[ Sacar ]\n"},{"bold":true,"click_event":{"action":"run_command","command":"/function banco:interface/get_divida"},"color":"#D60909","text":"[ Ver Dívida ]"}]
 
 execute if score @s endividado matches 1.. run tellraw @s {"bold":true,"click_event":{"action":"run_command","command":"/function banco:divida/quitar/check_if_divida"},"color":"dark_green","text":"[ Quitar Dívida ]"}
 
-tellraw @s {"color":"dark_red","text":"———————————————"}
+tellraw @s {"color":"dark_red","text":"—————————————————"}

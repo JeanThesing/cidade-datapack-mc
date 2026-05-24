@@ -10,3 +10,5 @@ execute if score @s item_temp matches 64.. if score @s moeda_temp_deposito match
 execute if score @s item_temp matches 1..63 if score @s moeda_temp_deposito matches 81.. run clear @s minecraft:gold_block 1
 execute if score @s item_temp matches 1..63 if score @s moeda_temp_deposito matches 81.. run scoreboard players add @s banco 81
 execute if score @s item_temp matches 1..63 if score @s moeda_temp_deposito matches 81.. run scoreboard players remove @s moeda_temp_deposito 81
+
+scoreboard players set @s item_temp 0
