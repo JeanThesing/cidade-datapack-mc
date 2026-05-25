@@ -8,8 +8,7 @@ scoreboard players set BlueOyster blueOysterJaFoi 0
 
 # Reseta a Dança
 function night_club:dance/dance_reset
-stopsound @a
 
 # Timer dança:
-scoreboard objectives add timer dummy
-scoreboard players set #timer timer 0
+#scoreboard objectives add timer dummy
+#scoreboard players set #timer timer 0

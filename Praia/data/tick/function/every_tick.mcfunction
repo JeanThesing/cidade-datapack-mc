@@ -1,0 +1,3 @@
+function rotinas:tick
+function night_club:tick_night_club
+function trabalho:cafeteria/every_tick_cafeteria

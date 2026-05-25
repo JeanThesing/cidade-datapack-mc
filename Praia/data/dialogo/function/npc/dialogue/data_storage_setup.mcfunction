@@ -8,13 +8,40 @@ function dialogo:npc/dialogue/data_storage_reset
 data modify storage dialogo:dialogue bob append value {message:"Olá, meu nome é Bob", command:"say I'm running a command"}
 data modify storage dialogo:dialogue bob append value {message:"Como você está?"}
 
-#[0-5] athonburguense
+#[0-29] athonburguense
 data modify storage dialogo:dialogue athonburgo append value {message:"Se entrega a batida!"}
 data modify storage dialogo:dialogue athonburgo append value {message:"Não para, não para, não para não!"}
 data modify storage dialogo:dialogue athonburgo append value {message:"Ei, juiz! Vai tomar caju!"}
 data modify storage dialogo:dialogue athonburgo append value {message:"Isso é falta de lucrilhos!"}
 data modify storage dialogo:dialogue athonburgo append value {message:"Lúcio chegando!"}
 data modify storage dialogo:dialogue athonburgo append value {message:"Vamo esculachar!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Bup"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Keroppi, Keroppi, vive pulando aí!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Vamo esculachar!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Subiindo nas paradas de sucesso!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Boop!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Tem que aprender a levar na esportiva!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Arrebentei!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"É tão bom que até assusta!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Ah, garoto!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Aperta o play!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Dá uma olhada nisso aqui!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Eu sou sinixtro!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Não tô te ouvindo não!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Pra quê tanto ódio no coração, parça?"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Haha, oh sorte!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Avalanche!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Não dá pra correr mais que o deus da velocidade!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Será que tu não tá afim de, é... Não sei... Ah, por que é tão difícil?!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Dessa vez eu vou tocar melhor"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Tem coisa boa vindo aí!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"99 de agilidade!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Eu tô cansado das tuas regras, vou botar meu headphone no talo!"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Ah.. Fantasma não existe... Espero"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Do jeitinho que eu goixsto"}
+data modify storage dialogo:dialogue athonburgo append value {message:"Dão importa, dão importa"}
+
+
 
 #[0-8] BOATOS DOMINGOS
 

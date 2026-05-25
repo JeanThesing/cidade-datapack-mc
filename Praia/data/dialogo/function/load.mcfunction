@@ -15,7 +15,7 @@ function dialogo:npc/coracoes/load_coracoes
 
 # NPCS
     # BASE DIALOGO:
-        scoreboard objectives add talked_to_villager dummy
+    scoreboard objectives add talked_to_villager dummy
     scoreboard objectives add npc_progress_bob dummy
     scoreboard objectives add npc_progress_noodle dummy
     scoreboard objectives add npc_progress_domingos dummy

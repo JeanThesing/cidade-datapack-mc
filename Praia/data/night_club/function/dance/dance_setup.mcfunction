@@ -14,3 +14,5 @@ tp @s 59813.86 63.00 7747.51
 
 # Gera os policias:
 function night_club:dance/summon_policiais/gerar_policiais
+
+schedule function night_club:dance/dance_reset 15s

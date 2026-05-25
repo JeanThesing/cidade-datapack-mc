@@ -13,4 +13,4 @@ scoreboard players add @s npc_progress_athonburgo 1
 # scoreboard players set @s npc_progress_bob 1 //caso for condicional
 
 #Reseta o progresso do chat
-execute if score @s npc_progress_athonburgo matches 6 run scoreboard players reset @s npc_progress_athonburgo
+execute if score @s npc_progress_athonburgo matches 30 run scoreboard players reset @s npc_progress_athonburgo

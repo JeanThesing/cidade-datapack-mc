@@ -1,1 +1,0 @@
-execute if entity @e[type=villager, name="Cliente Seu Ivanir",tag=cliente, distance=..8] run return run function dialogo:cafeteria/clientes/dialogo_clientes/seu_ivanir/npc_seu_ivanir

@@ -2,8 +2,9 @@
     "values": [
         "dialogo:load",
         "rotinas:load",
-        "dialogo:cafeteria/load_cafeteria",
+        "trabalho:cafeteria/load_cafeteria",
         "night_club:load_night_club",
-        "telefone:load"
+        "telefone:load",
+        "tick:load"
     ]
 }
