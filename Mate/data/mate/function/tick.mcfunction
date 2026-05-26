@@ -8,6 +8,9 @@ execute as @a if predicate mate:baseado_check run function mate:fumar/fumando
 # Se estiver com o cigarro na mão, ativa a função de fumar
 execute as @a if predicate mate:cigarro_check run function mate:fumar/fumando
 
+# Se estiver com o cigarro na mão, ativa a função de fumar
+execute as @e[type=villager,name="Barbeiro Villa-Lobos"] run function mate:fumar/fumando_villa_lobos
+
 
 
 

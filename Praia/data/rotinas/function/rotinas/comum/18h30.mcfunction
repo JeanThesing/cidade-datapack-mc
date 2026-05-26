@@ -15,3 +15,6 @@ function rotinas:rotinas/tp_npc {nome:"Agente Danúbio", coord:"59689 81 7944"}
 
 # abre portas nightclub
 function night_club:portas/abre_portas
+
+# barbearia
+function npc_labor:barbearia/sistema/diario

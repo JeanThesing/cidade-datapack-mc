@@ -1,0 +1,3 @@
+# function dialogo:macro/fala_2respostas {nome:"NomeVillager",fala:" Texto do villager.",resposta1:"[Opcao 1]",resposta2:"[Opcao 2]",function1:"/function dialogo:respostas/resposta_1",function2:"/function dialogo:respostas/resposta_2",color1:"55FF55",color2:"FFFF55"}
+
+$tellraw @a[distance=..6] [{"color":"white","text":"<"},{"color":"gold","text":"$(nome)"},{"color":"white","text":"> "},{"color":"white","text":"$(fala)"},{"bold":true,"click_event":{"action":"run_command","command":"$(function1)"},"color":"#$(color1)","text":"\n$(resposta1)"},{"bold":true,"click_event":{"action":"run_command","command":"$(function2)"},"color":"#$(color2)","text":"\n$(resposta2)"}]

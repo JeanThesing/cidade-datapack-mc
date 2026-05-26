@@ -5,6 +5,7 @@
         "trabalho:cafeteria/load_cafeteria",
         "night_club:load_night_club",
         "telefone:load",
+        "npc_labor:load",
         "tick:load"
     ]
 }

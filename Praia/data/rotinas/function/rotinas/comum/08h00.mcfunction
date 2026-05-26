@@ -12,3 +12,6 @@ function rotinas:rotinas/tp_npc {nome:"Tarcila", coord:"59654.77 74.00 7937.46"}
 
 # Alberto Barros
 function rotinas:rotinas/tp_npc {nome:"Alberto Barros", coord:"59683.32 73.06 7910.19"}
+
+# Villa-Lobos
+function rotinas:rotinas/tp_npc {nome:"Barbeiro Villa-Lobos", coord:"59605.25 81.00 8126.14"}

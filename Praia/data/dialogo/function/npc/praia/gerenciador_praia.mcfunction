@@ -14,6 +14,9 @@ function dialogo:npc/praia/danubio/gerenciador
 function dialogo:npc/praia/domingos/gerenciador
 # Porta da Capela
 function dialogo:npc/praia/porta_capelinha/gerenciador
+# Barbeiro
+
+function dialogo:macro/trigger/gerenciador {nome:"Barbeiro Villa-Lobos",predicate:"dialogo:8h00-18h30",function:"function npc_labor:barbearia/dialogo/pergunta"}
 
 # Chama Telefone do namespace Telefone
 # Telefone
