@@ -1,2 +1,2 @@
-# function dialogo:macro/fala_obs {obs:"Texto de observacao."}
-$tellraw @a[distance=..6] {"bold":true,"color":"#$(color)","text":"$(obs)"}tellraw @a[distance=..6] {"bold":true,"color":"#FFFFFF","text":"$(obs)"}
+# function dialogo:macro/observacao {color:"91B2FF",obs:"Texto de observacao."}
+$tellraw @a[distance=..6] {"bold":true,"color":"#$(color)","text":"$(obs)"}

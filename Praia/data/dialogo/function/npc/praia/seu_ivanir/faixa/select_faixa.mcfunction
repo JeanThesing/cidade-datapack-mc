@@ -1,6 +1,6 @@
 # DIALOGOS QUANDO NAO OCORREM NENHUM EVENTO - DE ACORDO COM A AFINIDADE DO JOGADOR PARA COM O NPC
 
-tellraw @a[distance=..8] [{"color":"gold","text":"<Seu Ivanir>"},{"color":"white","text":" Boa tarde, meu jovem, o dia está lindo, não está?"}]
+function dialogo:macro/fala {nome:"Seu Ivanir",fala:" Boa tarde, meu jovem, o dia está lindo, não está?"}
 
 # Faixa 0: afeto 0 a 9
 #execute if score @s afeto_seu_ivanir matches 0..9 run function dialogo:npc/praia/seu_ivanir/padrao/faixa_0

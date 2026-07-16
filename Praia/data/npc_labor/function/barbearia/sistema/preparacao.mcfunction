@@ -1,3 +1,4 @@
+function rotinas:rotinas/tp_npc {nome:"Barbeiro Villa-Lobos", coord:"59605.25 81.00 8126.14"}
 kill @e[type=armor_stand,limit=1,tag=cadeira_barbearia]
 
 clear @s gold_nugget 15

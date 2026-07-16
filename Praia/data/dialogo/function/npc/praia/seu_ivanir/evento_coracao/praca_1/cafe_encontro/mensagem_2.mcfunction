@@ -2,4 +2,6 @@ tellraw @s [{"bold":true,"color":"white","text":"(Você dirigiu-se à casa de Se
 
 tellraw @s [  "",  {"text":"✨ Você sente seu vínculo com ","color":"yellow"},  {"text":"Seu Ivanir","color":"gold","bold":true},  {"text":" fortalecer... \n","color":"yellow"},   {"text":"❤ +1 Coração ","color":"red"},  {"text":"(Progresso: ","color":"gray"},  {"score":{"name":"@s","objective":"afeto_seu_ivanir"},"color":"green"},  {"text":"/10)","color":"gray"}]
 
+tag @e[type=villager,name="Seu Ivanir"] remove em_evento
+
 playsound minecraft:block.note_block.bass voice @a[distance=..10] ~ ~ ~ 1 1.1

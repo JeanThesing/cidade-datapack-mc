@@ -20,7 +20,12 @@ scoreboard players operation #minutos DayTime %= #1000 DayTime
 scoreboard players operation #minutos DayTime *= #60 DayTime
 scoreboard players operation #minutos DayTime /= #1000 DayTime
 
+# Mostra o dia da semana
+function rotinas:semana/out_dia
+
 # Exibe o horário formatado
 execute if score #minutos DayTime matches 0..9 run tellraw @s [{"bold":true,"color":"#877350","text":"🕐 "},{"bold":false,"color":"gold","score":{"name":"#hora","objective":"DayTime"}},{"bold":false,"color":"gold","text":"h0"},{"bold":false,"color":"gold","score":{"name":"#minutos","objective":"DayTime"}}]
 
 execute if score #minutos DayTime matches 10.. run tellraw @s [{"bold":true,"color":"#877350","text":"🕐 "},{"bold":false,"color":"gold","score":{"name":"#hora","objective":"DayTime"}},{"bold":false,"color":"gold","text":"h"},{"bold":false,"color":"gold","score":{"name":"#minutos","objective":"DayTime"}}]
+
+

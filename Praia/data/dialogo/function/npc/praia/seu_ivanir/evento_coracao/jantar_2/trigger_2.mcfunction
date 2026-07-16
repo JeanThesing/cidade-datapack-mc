@@ -1,1 +1,0 @@
-execute if predicate dialogo:20h30-23h30 if entity @e[type=villager,name="Seu Ivanir",tag=morador,limit=1,x=59692,y=70,z=7893, distance=..2] as @a[x=59700,y=70,z=7892,dz=-1,dy=2] if score @s evento_coracao matches 0 if score @s afeto_seu_ivanir matches 1.. run function dialogo:npc/praia/seu_ivanir/evento_coracao/jantar_2/parte-1/convite

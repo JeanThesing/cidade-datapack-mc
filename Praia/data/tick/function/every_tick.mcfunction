@@ -14,3 +14,5 @@ function npc:face_player {nome:"Herobrine"}
 #/summon enderman ~ ~ ~ {OnGround:1b,Silent:1b,PersistenceRequired:1b,home_pos:[I;59746,66,7798],home_radius:15,CustomName:"herobrino",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:scale",base:0.5}]}
 
 
+#execute as @e[type=villager,limit=1,tag=herobrine] run function npc:tp_to {nome:"herobrino"}
+#/summon wolf ~ ~ ~ {OnGround:1b,Silent:1b,PersistenceRequired:1b,home_pos:[I;59746,66,7798],home_radius:15,CustomName:"herobrino",active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}]}
