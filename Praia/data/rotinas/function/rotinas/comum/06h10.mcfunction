@@ -34,4 +34,3 @@ function rotinas:rotinas/tp_npc {nome:"Alberto Barros", coord:"59685.43 79.44 79
 function rotinas:rotinas/tp_npc {nome:"Stephen Hawking", coord:"59740.51 68.50 7852.60"}
 setblock 59736 64 7849 redstone_wire replace
 
-function rotinas:diario

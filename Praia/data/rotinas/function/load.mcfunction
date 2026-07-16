@@ -6,8 +6,12 @@ scoreboard objectives add relogio dummy
 
 # SEMANA
 scoreboard objectives add diaSemana dummy
+scoreboard objectives add diaAnterior dummy
+scoreboard objectives add diaAtual dummy
 scoreboard players set #event diaSemana 1
 tag @a add getDia
+
+execute unless score #global diaAnterior matches -2147483648..2147483647 store result score #global diaAnterior run time query day
 
 
 # Define constantes para cálculos

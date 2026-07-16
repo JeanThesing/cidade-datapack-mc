@@ -11,3 +11,4 @@ execute if predicate rotinas:time/18h30 run function rotinas:rotinas/comum/18h30
 execute if predicate rotinas:time/20h30 run function rotinas:rotinas/comum/20h30
 execute if predicate rotinas:time/21h30 run function rotinas:rotinas/comum/21h30
 execute if predicate rotinas:time/23h30 run function rotinas:rotinas/comum/23h30
+execute if predicate rotinas:time/00h00 run function rotinas:rotinas/comum/00h00

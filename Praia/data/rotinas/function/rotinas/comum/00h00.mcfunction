@@ -1,0 +1,1 @@
+# execute store result score encontroRandom random 3h00 run random roll 1..100
