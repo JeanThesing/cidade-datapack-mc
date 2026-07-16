@@ -1,0 +1,1 @@
+setblock 59521 80 7921 minecraft:redstone_torch

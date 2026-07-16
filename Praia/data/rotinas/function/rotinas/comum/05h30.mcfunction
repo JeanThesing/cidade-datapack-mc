@@ -1,3 +1,6 @@
+# 05h30.mcfunction → scoreboard players set #global horarioSlot 3
+scoreboard players set #global horarioSlot 3
+
 # agente danubio sentado na recepcao
 function rotinas:rotinas/tp_npc {nome:"Agente Danúbio", coord:"59689.51 73.50 7941.99"}
 

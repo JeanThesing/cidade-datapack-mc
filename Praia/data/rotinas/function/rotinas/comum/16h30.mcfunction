@@ -1,3 +1,6 @@
+# 16h30.mcfunction → scoreboard players set #global horarioSlot 9
+scoreboard players set #global horarioSlot 9
+
 # Eunice toma banho
 function rotinas:rotinas/tp_npc {nome:"Eunice", coord:"59634.66 69.50 8036.00"}
 

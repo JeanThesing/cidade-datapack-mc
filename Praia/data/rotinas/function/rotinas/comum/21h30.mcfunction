@@ -1,3 +1,6 @@
+# 21h30.mcfunction → scoreboard players set #global horarioSlot 13
+scoreboard players set #global horarioSlot 13
+
 # Tarcila cozinha
 function rotinas:rotinas/tp_npc {nome:"Tarcila", coord:"59665.82 74.00 7912.50"}
 

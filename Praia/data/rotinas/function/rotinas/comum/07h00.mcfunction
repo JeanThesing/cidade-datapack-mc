@@ -1,3 +1,6 @@
+# 07h00.mcfunction → scoreboard players set #global horarioSlot 5
+scoreboard players set #global horarioSlot 5
+
 # herivelto trampo
 function rotinas:rotinas/tp_npc {nome:"Herivelto de Borba", coord:"59628.72 69.50 8041.55"}
 

@@ -1,22 +1,21 @@
-# abre porta da igreja
-setblock 59521 80 7921 minecraft:redstone_torch
-# toca o sino
-setblock 59690 60 7889 redstone_torch
+# 06h10.mcfunction → scoreboard players set #global horarioSlot 4
+scoreboard players set #global horarioSlot 4
+
+# efeitos que só devem rodar 1x por ativação real do slot 4
+execute unless score #global horarioSlot = #global slotEfeitoFeito run function rotinas:rotinas/comum/efeitos_unicos/06h10_efeitos
+scoreboard players operation #global slotEfeitoFeito = #global horarioSlot
 
 # ivanir sacada
 function rotinas:rotinas/tp_npc {nome:"Seu Ivanir", coord:"59703.19 76.00 7895.00"}
 
 # ronaldo cantar na sacada
 function rotinas:rotinas/tp_npc {nome:"Ronaldo do Caldo", coord:"59695.02 80.00 7942.01"}
-setblock 59719 40 7927 minecraft:redstone_block
 
 # gerusa tomando cafe
 function rotinas:rotinas/tp_npc {nome:"Gerusa", coord:"59668.45 80.00 7903.53"}
 
 # tarcila bong
 function rotinas:rotinas/tp_npc {nome:"Tarcila", coord:"59672.55 74.00 7902.31"}
-summon area_effect_cloud 59670 75.4 7902 {custom_particle:{type:"campfire_cosy_smoke"},ReapplicationDelay:60,Radius:3f,Duration:40,potion_contents:{custom_color:12694983,custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:400,show_particles:0b,show_icon:0b}]}}
-playsound minecraft:block.campfire.crackle ambient @a 59670 75.4 7902 1 1.7
 
 # Eunice mesa da cozinha
 function rotinas:rotinas/tp_npc {nome:"Eunice", coord:"59632 69.5 8028"}
@@ -32,5 +31,3 @@ function rotinas:rotinas/tp_npc {nome:"Alberto Barros", coord:"59685.43 79.44 79
 
 # Stephen Hawking na cadeira
 function rotinas:rotinas/tp_npc {nome:"Stephen Hawking", coord:"59740.51 68.50 7852.60"}
-setblock 59736 64 7849 redstone_wire replace
-

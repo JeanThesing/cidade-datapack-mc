@@ -1,3 +1,6 @@
+# 23h30.mcfunction → scoreboard players set #global horarioSlot 14
+scoreboard players set #global horarioSlot 14
+
 # Ivanir dormir
 function rotinas:rotinas/tp_npc {nome:"Seu Ivanir", coord:"59694.97 76.56 7892.90"}
 

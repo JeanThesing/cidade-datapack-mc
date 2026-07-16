@@ -1,12 +1,17 @@
+# 20h30.mcfunction → scoreboard players set #global horarioSlot 12
+scoreboard players set #global horarioSlot 12
+
 # Ivanir jantando
 function rotinas:rotinas/tp_npc {nome:"Seu Ivanir", coord:"59692 70.5 7893"}
 
 # ronaldo do caldo cantando fly me to the moon
 function rotinas:rotinas/tp_npc {nome:"Ronaldo do Caldo", coord:"59768.51 63.00 7912.47"}
-setblock 59765 47 7878 minecraft:redstone_block
+execute unless score #global horarioSlot = #global slotEfeitoFeito run setblock 59765 47 7878 minecraft:redstone_block
+scoreboard players operation #global slotEfeitoFeito = #global horarioSlot
+# setblock 59765 47 7878 minecraft:redstone_block
 
-# fecha porta da igreja
-setblock 59518 80 7925 redstone_torch
+# fecha porta da igreja (AGORA FECHA 18H30)
+#setblock 59518 80 7925 redstone_torch
 
 # gerusa escreve diario
 function rotinas:rotinas/tp_npc {nome:"Gerusa", coord:"59660.49 80.56 7910.41"}

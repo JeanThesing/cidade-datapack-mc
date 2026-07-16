@@ -14,3 +14,11 @@ tag @e[type=villager,tag=em_evento] remove em_evento
 execute as @a[tag=getDia] run function rotinas:semana/out_dia
 # TEMP
 function npc_labor:birosca/sistema/troca_cardapio
+
+
+# rola o parametro de evento aleatorio do dia:
+# Encontros Aleatórios
+execute store result score encontroRandom randomico run random roll 1..9
+
+# barbearia
+function npc_labor:barbearia/sistema/diario

@@ -1,0 +1,14 @@
+execute if score #global horarioSlot matches 1 run function rotinas:rotinas/comum/00h00
+execute if score #global horarioSlot matches 2 run function rotinas:rotinas/comum/03h00
+execute if score #global horarioSlot matches 3 run function rotinas:rotinas/comum/05h30
+execute if score #global horarioSlot matches 4 run function rotinas:rotinas/comum/06h10
+execute if score #global horarioSlot matches 5 run function rotinas:rotinas/comum/07h00
+execute if score #global horarioSlot matches 6 run function rotinas:rotinas/comum/08h00
+execute if score #global horarioSlot matches 7 run function rotinas:rotinas/comum/12h00
+execute if score #global horarioSlot matches 8 run function rotinas:rotinas/comum/16h20
+execute if score #global horarioSlot matches 9 run function rotinas:rotinas/comum/16h30
+execute if score #global horarioSlot matches 10 run function rotinas:rotinas/comum/17h30
+execute if score #global horarioSlot matches 11 run function rotinas:rotinas/comum/18h30
+execute if score #global horarioSlot matches 12 run function rotinas:rotinas/comum/20h30
+execute if score #global horarioSlot matches 13 run function rotinas:rotinas/comum/21h30
+execute if score #global horarioSlot matches 14 run function rotinas:rotinas/comum/23h30
