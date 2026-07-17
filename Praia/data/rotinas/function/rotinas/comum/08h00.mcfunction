@@ -18,3 +18,5 @@ function rotinas:rotinas/tp_npc {nome:"Alberto Barros", coord:"59683.32 73.06 79
 
 # Villa-Lobos
 function rotinas:rotinas/tp_npc {nome:"Barbeiro Villa-Lobos", coord:"59605.25 81.00 8126.14"}
+
+function npc_labor:birosca/sistema/troca_cardapio

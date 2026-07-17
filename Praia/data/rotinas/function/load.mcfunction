@@ -3,6 +3,7 @@ scoreboard objectives add diaNormal dummy
 scoreboard objectives add DayTime dummy
 scoreboard objectives add encontro_dona_aranha dummy
 scoreboard objectives add relogio dummy
+scoreboard objectives add randomico dummy
 
 # SEMANA
 scoreboard objectives add diaSemana dummy

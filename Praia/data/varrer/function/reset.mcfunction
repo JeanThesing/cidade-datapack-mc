@@ -1,0 +1,1 @@
+execute as @a[tag=varreu] run advancement revoke @s only varrer:usou_vassoura

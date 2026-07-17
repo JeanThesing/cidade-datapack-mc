@@ -18,11 +18,11 @@ execute as @a at @s if entity @e[type=spider,name="Dona Aranha",distance=..2] un
 function rotinas:diversos/relogio/relogio_tick
 
 
-# semana:
+#semana:
+#semana:
+# semana.mcfunction (roda todo tick)
 execute store result score #global diaAtual run time query day
 
 execute unless score #global diaAtual = #global diaAnterior run function rotinas:semana/add_dia
-
-scoreboard players operation #global diaAnterior = #global diaAtual
 
 

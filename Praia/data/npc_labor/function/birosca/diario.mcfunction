@@ -1,0 +1,1 @@
+function npc_labor:birosca/sistema/troca_cardapio

@@ -1,0 +1,1 @@
+give @s brush[custom_name={"bold":true,"color":"#ff5900","italic":false,"text":"Vassoura"}] 1

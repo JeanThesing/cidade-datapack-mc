@@ -1,0 +1,1 @@
+execute at @e[type=villager,tag=talk,name="Ch’aska Ñawi",scores={talk=1}] run function dialogo:npc/praia/chaska/main

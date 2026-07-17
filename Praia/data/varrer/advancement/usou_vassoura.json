@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "usou_vassoura": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:brush",
+              "count": 1,
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Vassoura",
+                  "type": "text",
+                  "color": "#ff5900",
+                  "bold": true,
+                  "italic": false
+                }
+              }
+            }
+          }
+        },
+        "location": []
+      }
+    }
+  },
+  "rewards": {
+    "loot": [],
+    "function": "varrer:vassoura_ativada"
+  }
+}
